@@ -1,0 +1,63 @@
+
+
+.container {
+    margin-top: 10px;
+    padding: 25px;
+    outline: 2px solid teal;
+    display: flex;
+    width: 1050px;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+.btn_plus {
+    margin-top: 20px;
+    background-color: green;
+}
+    
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.item {
+    margin-right: 10px;
+
+}
+
+
+.button {
+    min-width: 60px;
+    min-height: 30px;
+    background-color: teal;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.active-button {
+    background-color: brown;
+    color: white;
+}
+
+
+
+.js-class  {
+    outline: 2px solid tomato;
+    min-width: 50px;
+    display: inline;
+    padding: 20px;
+    margin-top: 90px;
+    display: inline-flex;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.is-visible {
+    opacity: 1;
+}
+
